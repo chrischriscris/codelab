@@ -1,0 +1,24 @@
+{
+  "name": "collaberative-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./build/server.js",
+    "dev": "DEV=true npx nodemon"
+  },
+  "author": "Bjorn Beishline",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/nodemon": "^1.19.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@codemirror/collab": "^6.0.0",
+    "@codemirror/state": "^6.2.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.2"
+  }
+}
